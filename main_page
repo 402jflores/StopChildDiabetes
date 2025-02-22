@@ -1,0 +1,24 @@
+export default {
+  async fetch(request) {
+    const url = new URL(request.url);
+    
+    if (url.pathname === "/tips") {
+      const tips = [
+        "Encourage daily physical activity for at least 60 minutes.",
+        "Promote healthy eating with fruits, vegetables, and whole grains.",
+        "Limit sugary drinks and opt for water instead.",
+        "Ensure children get enough sleep, as it affects metabolism.",
+        "Reduce screen time and encourage outdoor play.",
+        "Eat meals together as a family to foster healthy habits."
+      ];
+      
+      return new Response(JSON.stringify({ tips }), {
+        headers: { "Content-Type": "application/json" }
+      });
+    }
+    
+    return new Response("Welcome to the Child Obesity Prevention API! Access tips at /tips", {
+      headers: { "Content-Type": "text/plain" }
+    });
+  }
+};
