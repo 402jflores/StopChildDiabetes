@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Child Diabetes</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; }
+        header { background: #28a745; color: white; text-align: center; padding: 20px; font-size: 24px; }
+        section { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        h2 { color: #28a745; }
+        ul { line-height: 1.8; }
+    </style>
+</head>
+<body>
+    <header>Stop Child Diabetes</header>
+    <section>
+        <h2>What is Child Diabetes?</h2>
+        <p>Child diabetes, particularly Type 2 diabetes, is a growing concern due to lifestyle factors such as diet and physical inactivity.</p>
+        
+        <h2>Ways to Prevent Child Diabetes</h2>
+        <ul>
+            <li>Encourage a balanced diet with whole foods, fruits, and vegetables.</li>
+            <li>Limit sugary beverages and processed foods.</li>
+            <li>Ensure at least 60 minutes of daily physical activity.</li>
+            <li>Promote healthy sleep habits.</li>
+            <li>Encourage regular medical check-ups.</li>
+        </ul>
+    </section>
+</body>
+</html>
